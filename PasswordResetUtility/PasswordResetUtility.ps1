@@ -1,5 +1,5 @@
 ﻿#Below is for farm password change 
-#read xml file, skip root read like $config.destinationn
+#read xml file, skip root read like $config.<<variable name>>
 #Translated XML config
 
 $config = ([xml](Get-Content PasswordResetUtilityConfig.xml)).root
