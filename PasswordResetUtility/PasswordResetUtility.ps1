@@ -2,7 +2,7 @@
 #read xml file, skip root read like $config.destinationn
 #Translated XML config
 
-$config = ([xml](Get-Content LCTPasswordResetUtilityConfig.xml)).root
+$config = ([xml](Get-Content PasswordResetUtilityConfig.xml)).root
 
 
 $farmandserviceaccounts = $config.farmaccount.split(",");
